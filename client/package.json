@@ -8,5 +8,6 @@
   },
   "scripts": {
     "start": "nodemon index.js"
-  }
+  },
+  "postinstall": "npx peerjs --port 3001"
 }
