@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const socket = io('https://video-chat-app-g68l.onrender.com');
+    const socket = io('/');
     const videoGrid = document.getElementById('video-grid')
 
     const myPeer = new Peer(undefined, {
