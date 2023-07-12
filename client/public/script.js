@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const socket = io('/');
+    const socket = io('https://video-chat-server-e88k.onrender.com');
     const videoGrid = document.getElementById('video-grid')
 
     const myPeer = new Peer(undefined, {
-        host: '/',
+        host: 'https://video-chat-server-e88k.onrender.com',
         port: '3001'
     })
 
